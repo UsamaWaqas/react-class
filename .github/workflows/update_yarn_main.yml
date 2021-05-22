@@ -39,7 +39,7 @@ jobs:
          cmd: install
          
          
-      - name: creating build
+      - name: creating build for deployment
         run : yarn build
         
         
