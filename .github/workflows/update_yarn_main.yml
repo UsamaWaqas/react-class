@@ -49,7 +49,7 @@ jobs:
       
       
       - name: deploying on surge
-        run : surge ./build http://usamadomain.surge.sh/ --token ${{secrets.surge_to_tokens}}
+        run : surge ./build https://enabler.surge.sh/ --token ${{secrets.surge_to_tokens}}
        
     
         
