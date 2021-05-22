@@ -40,7 +40,7 @@ jobs:
          
          
       - name: creating build
-        run : yarn build
+        run : npm build
         
         
         
